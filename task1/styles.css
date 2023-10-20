@@ -1,0 +1,9 @@
+/* Blue background for the first 5 rows */
+tr:nth-child(-n+5) {
+    background-color: rgba(61, 91, 215, 0.66);
+}
+
+/* Green background for the row with symbol "usdt" */
+tr[data-symbol="usdt"] {
+    background-color: #18a618;
+}
